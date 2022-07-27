@@ -27,3 +27,7 @@ app.get('/', function(req, res) {
     res.send(emojis[Math.floor(Math.random() * emojis.length)]);
 }
 );
+
+
+app.listen(process.env.PORT || 80, 
+	() => console.log("Server is running..."));
