@@ -4,22 +4,11 @@ const app = express();
 
 
 emojis = [
-    "blushing",
-    "happy",
-    "gun",
-    "lol",
-    "pleading",
-    "sad",
-    "screaming",
-    "shocked",
-    "shy",
-    "sick",
-    "silly",
-    "sleeping",
-    "sleepy",
-    "smiling",
-    "surprised",
-    "tired"
+    "😳",
+    "😶",
+    "😅",
+    "😁",
+    "💗"
     ]
 
 app.use(express.static("public"))
