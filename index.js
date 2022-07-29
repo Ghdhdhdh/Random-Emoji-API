@@ -26,7 +26,7 @@ app.use(express.static("public"))
 
 // for any HTTP request, return a random emoji
 app.get('/', function(req, res) {
-    res.send("hello");
+    res.send(emojis[Math.floor(Math.random() * emojis.length)]);
 }
 );
 
